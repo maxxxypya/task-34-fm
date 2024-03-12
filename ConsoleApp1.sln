@@ -5,6 +5,20 @@ VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{F2077125-7469-445A-A1D6-9177B4C804A9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{E07454AA-F4F0-46F8-B376-DB919626546A}"
+	ProjectSection(SolutionItems) = preProject
+		2D.cs = 2D.cs
+		Base.cs = Base.cs
+		boolgen.cs = boolgen.cs
+		doublegen.cs = doublegen.cs
+		IBase.cs = IBase.cs
+		IElGen.cs = IElGen.cs
+		intgen.cs = intgen.cs
+		IPrinter.cs = IPrinter.cs
+		main.cs = main.cs
+		strgen.cs = strgen.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
